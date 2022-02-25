@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fix::before, .fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#root{
+    margin-top: 25px;
+}
+
+body{
+    /*background-color: rebeccapurple;*/
+}
+
+.main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100vh;
+}
+
+.logo{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo img{
+    /*background-image: url("logo192.png");*/
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+}
+
+.menu{
+    /*background-color: aqua;*/
+    overflow: hidden;
+    width: 800px;
+    float: right;
+    margin-top: 27px;
+    /*text-align: center;*/
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    float: left;
+    color: darkslateblue;
+    text-align: center;
+    padding: 14px 62px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: fuchsia;
+}
+.content{
+    width: 800px;
+    display: inline-block;
+}
+.content-one{
+    width: 350px;
+    margin: 30px 20px 30px 0px;
+    float: left;
+}
+
+.content-two{
+    width: 350px;
+    margin: 30px 20px 30px 0px;
+    float: right;
+}
+
+.content-one h1{
+    text-align: center;
+    font-size: 30px;
+    color: darkslateblue;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.content-one p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.content-two h1{
+    text-align: center;
+    font-size: 30px;
+    color: darkslateblue;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.content-two p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.content:last-child{
+    margin-left: 65px;
+}
+
+.sidebar{
+    width: 350px;
+    height: 270px;
+    margin-top: 30px;
+    float: right;
+    border-style: solid;
+    background-color: aquamarine;
+}
+
+.sidebar h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li a{
+    float: left;
+    color: darkslateblue;
+    text-align: center;
+    padding: 14px 62px;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.sidebar ul li a:hover{
+    color: rebeccapurple;
+    font-size: 25px;
+}
+
+.footer{
+    width: 1200px;
+    background-color: darkslateblue;
+    height: 40px;
+    font-size: 20px;
+}
+
+.footer p{
+    text-align: center;
+    color: whitesmoke;
+}
