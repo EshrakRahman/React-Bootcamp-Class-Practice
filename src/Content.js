@@ -13,7 +13,7 @@ class Content extends Component {
 
                     <div className={'content-two'}>
                         <h1>Chapter Two</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias amet aperiam architecto asperiores at cum cupiditate dicta eveniet fuga inventore minus molestiae nemo nulla odio officia placeat quasi ratione, reiciendis rem repellat sapiente sed sint veniam vitae voluptas!</p>
+                        <p>This is a test for CI/CD. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias amet aperiam architecto asperiores at cum cupiditate dicta eveniet fuga inventore minus molestiae nemo nulla odio officia placeat quasi ratione, reiciendis rem repellat sapiente sed sint veniam vitae voluptas!</p>
                     </div>
                 </div>
             </React.Fragment>
